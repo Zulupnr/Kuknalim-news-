@@ -1,0 +1,82 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.like-btn {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.like-btn:hover {
+    background-color: #00509e; /* Lighter Blue */
+}
+
+aside {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
